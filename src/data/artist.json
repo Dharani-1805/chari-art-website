@@ -1,0 +1,62 @@
+{
+  "name": "Dharani Achari (Chari)",
+  "brandName": "Chari Creations",
+  "tagline": "Handcrafted Custom Artworks, Portraits & Creative Drawings",
+  "bio": "I am Dharani Achari (Chari), an independent visual artist and founder of Chari Creations. I specialize in realistic pencil portraits, deep charcoal studies, bespoke customized portraits, vibrant colour pencil drawings, and detailed hyper-realistic artworks. With over 6 years of dedicated practice, I transform beloved memories and loved ones into timeless, personalized artworks.",
+  "founderImage": "/artworks/founder-dharani-achari.jpg",
+  "location": "India",
+  "status": "Accepting Custom Commissions for 2025/2026",
+  "socials": {
+    "whatsapp": "+919505869543",
+    "whatsappDisplay": "+91 95058 69543",
+    "instagram": "chari_.artz",
+    "instagramUrl": "https://instagram.com/chari_.artz",
+    "email": "mdharaniachari@gmail.com"
+  },
+  "stats": [
+    { "label": "Commissioned Artworks", "value": "180+" },
+    { "label": "Years of Dedication", "value": "6+" },
+    { "label": "Customer Happiness", "value": "100%" },
+    { "label": "High-Quality Longevity", "value": "100+ Yrs" }
+  ],
+  "materials": [
+    {
+      "category": "Pencil Portraits",
+      "tools": "Staedtler Mars Lumograph, Faber-Castell 9000, Tombow Mono Zero Eraser, Strathmore Bristol Board"
+    },
+    {
+      "category": "Charcoal & Customized Portraits",
+      "tools": "Willow & Vine Charcoal, Carbon Pencils, Blending Stumps, Kneaded Erasers, Archival Textured Fine Art Paper"
+    },
+    {
+      "category": "Colour Pencil Portraits",
+      "tools": "Faber-Castell Polychromos, Prismacolor Premier, Caran d'Ache Luminance, Heavyweight Cotton Paper"
+    },
+    {
+      "category": "Hyper-Realistic Drawings",
+      "tools": "Carbon Pencils, Graphite 9B, Blending Stumps, Electric Erasers, Archival Bristol Smooth Paper"
+    }
+  ],
+  "processSteps": [
+    {
+      "step": "01",
+      "title": "Select Medium & Reference Photo",
+      "description": "Choose your medium and size, and upload your reference photos. If you're unsure which photo works best, Chari will personally guide you on lighting, clarity, and composition."
+    },
+    {
+      "step": "02",
+      "title": "Initial Proportion Sketch",
+      "description": "The foundation of realism begins with an accurate outline sketch. A preview is shared with you to confirm likeness, expression, and layout before any shading begins."
+    },
+    {
+      "step": "03",
+      "title": "Deep Layering & Rendering",
+      "description": "Hours of patient layer-by-layer shading, texture mapping, and skin pores / hair details. Regular behind-the-scenes progress photos/videos are shared with you on WhatsApp."
+    },
+    {
+      "step": "04",
+      "title": "Protective Seal & Safe Packaging",
+      "description": "The final drawing is sealed with protective fixative to prevent fading and smudging. Safely packaged in rigid multi-layer protective packaging and dispatched with live tracking."
+    }
+  ]
+}

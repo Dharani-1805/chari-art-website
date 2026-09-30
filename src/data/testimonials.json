@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "clientName": "Ananya Sharma",
+    "location": "Bengaluru, India",
+    "artworkType": "Colour Pencil Portrait (A3)",
+    "review": "I commissioned Chari for my parents' 30th anniversary. When they opened the package, my mother was in tears. The shine in their eyes, the exact texture of my father's jacket — it wasn't just a drawing, it felt like their souls were captured on paper. Chari is a true master.",
+    "rating": 5,
+    "date": "February 2025"
+  },
+  {
+    "id": 2,
+    "clientName": "David & Sarah Jenkins",
+    "location": "London, UK",
+    "artworkType": "Realistic Pencil Portrait (A2)",
+    "review": "Chari created a composite pencil portrait of my late grandfather holding my newborn daughter — two people who never met in real life. The harmony and seamless realism brought the whole family to stunned silence. Packed with immense care and arrived safely overseas!",
+    "rating": 5,
+    "date": "January 2025"
+  },
+  {
+    "id": 3,
+    "clientName": "Rohan Mehra",
+    "location": "Mumbai, India",
+    "artworkType": "Charcoal Portrait (A3)",
+    "review": "The interactive quote calculator made it super easy to understand the options, and Chari was extremely responsive on WhatsApp. The work in progress updates made the entire process so exciting. Will definitely order again!",
+    "rating": 5,
+    "date": "November 2024"
+  }
+]

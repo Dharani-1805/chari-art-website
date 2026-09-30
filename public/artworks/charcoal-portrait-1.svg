@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bgCharcoal" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#1f1d1c"/>
+      <stop offset="60%" stop-color="#0f0e0e"/>
+      <stop offset="100%" stop-color="#060606"/>
+    </radialGradient>
+    <linearGradient id="charcoalGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e4e9"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#6b7280"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgCharcoal)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#d4af37" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- Velvet Charcoal Drawing Form -->
+  <g transform="translate(400, 480)">
+    <ellipse cx="0" cy="-30" rx="190" ry="240" fill="#121111"/>
+    
+    <!-- Deep Smudged Background Shadow -->
+    <path d="M-150,-100 Q0,-240 150,-100 Q200,80 120,220 Q0,260 -120,220 Q-200,80 -150,-100 Z" fill="#1a1818" opacity="0.8"/>
+    
+    <!-- Bold Charcoal Profile Silhouette -->
+    <path d="M-80,-140 Q-30,-210 0,-210 Q30,-210 80,-140 Q130,-50 110,60 Q90,170 0,220 Q-90,170 -110,60 Q-130,-50 -80,-140 Z" fill="#242121" stroke="#e2e4e9" stroke-opacity="0.3" stroke-width="2"/>
+
+    <!-- High Contrast Velvet Eyes & Light Accents -->
+    <circle cx="-35" cy="-35" r="7" fill="#000000"/>
+    <circle cx="-33" cy="-37" r="2.5" fill="#ffffff"/>
+    <circle cx="35" cy="-35" r="7" fill="#000000"/>
+    <circle cx="37" cy="-37" r="2.5" fill="#ffffff"/>
+    
+    <!-- Strong Charcoal Shading Hatching -->
+    <g stroke="#d4af37" stroke-opacity="0.4" stroke-width="1.5" fill="none">
+      <path d="M-60,-50 Q-35,-65 -10,-50"/>
+      <path d="M10,-50 Q35,-65 60,-50"/>
+      <path d="M-20,70 Q0,85 20,70"/>
+      <path d="M-70,50 Q0,150 70,50"/>
+    </g>
+  </g>
+
+  <!-- Title Badge -->
+  <g transform="translate(400, 850)">
+    <rect x="-180" y="-35" width="360" height="70" rx="35" fill="#12141a" fill-opacity="0.95" stroke="#d4af37" stroke-width="1.5"/>
+    <text x="0" y="-8" font-family="'Cormorant Garamond', Georgia, serif" font-size="18" fill="#f8f6f0" text-anchor="middle" font-weight="bold" letter-spacing="1.5">
+      VELVET CHARCOAL STUDY
+    </text>
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#d4af37" text-anchor="middle" font-weight="600" letter-spacing="2">
+      DEEP VINE CHARCOAL &amp; CARBON • A3
+    </text>
+  </g>
+
+  <g transform="translate(400, 100)">
+    <rect x="-110" y="-18" width="220" height="36" rx="18" fill="#191b22" stroke="#d4af37" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="0" y="5" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#d4af37" text-anchor="middle" font-weight="600" letter-spacing="2.5">
+      CHARI CREATIONS
+    </text>
+  </g>
+</svg>

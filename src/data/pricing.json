@@ -1,0 +1,101 @@
+{
+  "currency": {
+    "symbol": "₹",
+    "code": "INR",
+    "position": "prefix"
+  },
+  "discount": {
+    "enabled": true,
+    "percentage": 10,
+    "label": "10% Special Discount"
+  },
+  "mediums": [
+    {
+      "id": "pencil",
+      "name": "Pencil Portraits",
+      "subtitle": "Classic graphite on archival Bristol board with smooth gradients and luminous highlights",
+      "basePrice": 1200,
+      "tag": "Most Popular",
+      "sampleImage": "/artworks/pencil-portrait-youth.jpg"
+    },
+    {
+      "id": "charcoal",
+      "name": "Charcoal Portraits",
+      "subtitle": "Deep rich velvety blacks, dramatic chiaroscuro contrast & atmospheric charcoal textures",
+      "basePrice": 1350,
+      "tag": "Velvet Contrast",
+      "sampleImage": "/artworks/tirupati-balaji-artwork.jpg"
+    },
+    {
+      "id": "custom",
+      "name": "Customized Portraits",
+      "subtitle": "Bespoke personal compositions, custom styling, creative poses & unique tribute concepts",
+      "basePrice": 1350,
+      "tag": "Personalized",
+      "sampleImage": "/artworks/customized-portrait.jpg"
+    },
+    {
+      "id": "colour-pencil",
+      "name": "Colour Pencil Portraits",
+      "subtitle": "Vibrant, lifelike oil/wax based pencil layering with rich skin tones and glowing eyes",
+      "basePrice": 1500,
+      "tag": "Vibrant & Warm",
+      "sampleImage": "/artworks/virat-kohli-colour-pencil.jpg"
+    },
+    {
+      "id": "realistic",
+      "name": "Hyper-Realistic Drawings",
+      "subtitle": "Ultra-fine micro-detail capturing exact skin textures, reflections, and individual fine hairs",
+      "basePrice": 2000,
+      "tag": "Museum Detail",
+      "sampleImage": "/artworks/mother-teresa-drawing.jpg"
+    }
+  ],
+  "sizes": [
+    {
+      "id": "A4",
+      "label": "A4 Standard (Recommended)",
+      "dimensions": "8.3 × 11.7 inches (21.0 × 29.7 cm)",
+      "sizeMultiplier": 1.0,
+      "maxFaces": 2,
+      "recommended": true,
+      "description": "Standard portrait size. Ideal for 1 or 2 subjects with rich fine detail."
+    },
+    {
+      "id": "A3",
+      "label": "A3 Large",
+      "dimensions": "11.7 × 16.5 inches (29.7 × 42.0 cm)",
+      "sizeMultiplier": 1.5,
+      "maxFaces": 4,
+      "description": "Spectacular centerpiece. Ideal for detailed compositions, couples & tributes."
+    },
+    {
+      "id": "A2",
+      "label": "A2 Grand",
+      "dimensions": "16.5 × 23.4 inches (42.0 × 59.4 cm)",
+      "sizeMultiplier": 2.0,
+      "maxFaces": 6,
+      "description": "Statement artwork with unmatched realism, exhibition presence & scale."
+    }
+  ],
+  "subjects": [
+    { "count": 1, "label": "1 Person / Subject", "priceAdd": 0 },
+    { "count": 2, "label": "2 People / Subjects (Couple)", "priceAdd": 400 },
+    { "count": 3, "label": "3 People / Subjects", "priceAdd": 800 },
+    { "count": 4, "label": "4+ People (Group/Family)", "priceAdd": 1200 }
+  ],
+  "delivery": [
+    {
+      "id": "standard",
+      "label": "Standard Crafting & Delivery",
+      "timeline": "7 – 10 Business Days",
+      "price": 0
+    },
+    {
+      "id": "express",
+      "label": "Priority Rush Order",
+      "timeline": "3 – 5 Business Days",
+      "price": 500
+    }
+  ]
+}
