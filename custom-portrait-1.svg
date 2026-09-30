@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bgCustomPortrait" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#2d2426"/>
+      <stop offset="60%" stop-color="#171213"/>
+      <stop offset="100%" stop-color="#0b0809"/>
+    </radialGradient>
+    <linearGradient id="roseGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5d0c5"/>
+      <stop offset="50%" stop-color="#e29578"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgCustomPortrait)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#d4af37" stroke-opacity="0.25" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- Customized Portrait Art Form -->
+  <g transform="translate(400, 480)">
+    <!-- Decorative customized halo / aura -->
+    <circle cx="0" cy="-30" r="200" fill="none" stroke="url(#roseGoldGrad)" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.6"/>
+    <circle cx="0" cy="-30" r="170" fill="#1f181a"/>
+    
+    <!-- Portrait Silhouette -->
+    <path d="M-75,-130 Q-25,-190 0,-190 Q25,-190 75,-130 Q120,-40 105,60 Q85,160 0,205 Q-85,160 -105,60 Q-120,-40 -75,-130 Z" fill="#292023" stroke="#e29578" stroke-opacity="0.4" stroke-width="2"/>
+
+    <!-- Elegant Expressive Features -->
+    <circle cx="-30" cy="-35" r="5" fill="#f5d0c5"/>
+    <circle cx="30" cy="-35" r="5" fill="#f5d0c5"/>
+    <path d="M-15,60 Q0,75 15,60" stroke="#d4af37" stroke-width="2" fill="none"/>
+
+    <!-- Custom Floral/Personalized Accents -->
+    <path d="M-90,-100 Q-130,-40 -100,20" stroke="url(#roseGoldGrad)" stroke-width="2" fill="none"/>
+    <path d="M90,-100 Q130,-40 100,20" stroke="url(#roseGoldGrad)" stroke-width="2" fill="none"/>
+    <circle cx="-110" cy="-40" r="8" fill="#e29578" opacity="0.8"/>
+    <circle cx="110" cy="-40" r="8" fill="#e29578" opacity="0.8"/>
+  </g>
+
+  <!-- Title Badge -->
+  <g transform="translate(400, 850)">
+    <rect x="-180" y="-35" width="360" height="70" rx="35" fill="#12141a" fill-opacity="0.95" stroke="#d4af37" stroke-width="1.5"/>
+    <text x="0" y="-8" font-family="'Cormorant Garamond', Georgia, serif" font-size="18" fill="#f8f6f0" text-anchor="middle" font-weight="bold" letter-spacing="1.5">
+      CUSTOMIZED MEMORY PORTRAIT
+    </text>
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#d4af37" text-anchor="middle" font-weight="600" letter-spacing="2">
+      PERSONALIZED CONCEPT • A3
+    </text>
+  </g>
+
+  <g transform="translate(400, 100)">
+    <rect x="-110" y="-18" width="220" height="36" rx="18" fill="#191b22" stroke="#d4af37" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="0" y="5" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#d4af37" text-anchor="middle" font-weight="600" letter-spacing="2.5">
+      CHARI CREATIONS
+    </text>
+  </g>
+</svg>

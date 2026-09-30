@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+  <defs>
+    <radialGradient id="bgStudio" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#2c2720"/>
+      <stop offset="50%" stop-color="#161410"/>
+      <stop offset="100%" stop-color="#0a0907"/>
+    </radialGradient>
+    <linearGradient id="goldPalette" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e5ab"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#8a6d1c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="1000" fill="url(#bgStudio)"/>
+  <rect x="40" y="40" width="720" height="920" fill="none" stroke="#d4af37" stroke-opacity="0.3" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- Artist Easel & Canvas Outline -->
+  <g transform="translate(400, 480)">
+    <!-- Wooden Studio Easel Legs -->
+    <path d="M-150,380 L-40,-260 L80,380" stroke="#3d3429" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M-10,380 L-10,-280" stroke="#2b241c" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <rect x="-140" y="100" width="260" height="14" rx="4" fill="#524434"/>
+
+    <!-- Canvas on Easel -->
+    <rect x="-110" y="-180" width="220" height="280" rx="8" fill="#1c1915" stroke="url(#goldPalette)" stroke-width="2"/>
+    <ellipse cx="0" cy="-40" rx="60" ry="80" fill="none" stroke="#d4af37" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <path d="M-30,-40 Q0,-70 30,-40 Q0,40 -30,-40 Z" fill="#2d2720"/>
+
+    <!-- Artist Holding Brush / Pencil -->
+    <g transform="translate(140, 40)">
+      <!-- Silhouette of Artist -->
+      <circle cx="0" cy="-80" r="45" fill="#26211a" stroke="#d4af37" stroke-opacity="0.3" stroke-width="1.5"/>
+      <path d="M-45,-20 C-60,50 -70,180 -70,300 L70,300 C70,180 60,50 45,-20 Z" fill="#1e1a15"/>
+      <!-- Hand holding pencil pointing to canvas -->
+      <path d="M-40,40 L-120,-10" stroke="#d4af37" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Title Badge -->
+  <g transform="translate(400, 850)">
+    <rect x="-180" y="-35" width="360" height="70" rx="35" fill="#12141a" fill-opacity="0.95" stroke="#d4af37" stroke-width="1.5"/>
+    <text x="0" y="-8" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" fill="#f8f6f0" text-anchor="middle" font-weight="bold" letter-spacing="2">
+      CHARI CREATIONS
+    </text>
+    <text x="0" y="16" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#d4af37" text-anchor="middle" font-weight="600" letter-spacing="2">
+      CUSTOM PORTRAITURE &amp; ARTWORKS
+    </text>
+  </g>
+
+  <g transform="translate(400, 100)">
+    <rect x="-120" y="-18" width="240" height="36" rx="18" fill="#191b22" stroke="#d4af37" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="0" y="5" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#d4af37" text-anchor="middle" font-weight="600" letter-spacing="2.5">
+      HANDCRAFTED ARTWORKS
+    </text>
+  </g>
+</svg>
