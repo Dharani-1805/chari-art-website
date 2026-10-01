@@ -16,7 +16,7 @@ echo.
 echo [Step 2] Pushing all files (src/, public/artworks/, components, workflows)...
 echo (If a browser window pops up, click 'Sign in with GitHub' or 'Authorize')
 echo.
-git push -u origin main --force
+git push -u origin main
 
 echo.
 if %ERRORLEVEL% EQU 0 (
