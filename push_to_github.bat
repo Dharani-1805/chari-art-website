@@ -2,7 +2,7 @@
 title Push Chari Creations Website to GitHub
 echo =======================================================
 echo Pushing Chari Creations Website to GitHub Repository:
-echo https://github.com/Dharani-1805/chari-art-website
+echo https://github.com/Dharani-1805/chari-arts
 echo =======================================================
 echo.
 
@@ -25,10 +25,10 @@ if %ERRORLEVEL% EQU 0 (
     echo =======================================================
     echo.
     echo Next step:
-    echo 1. Open: https://github.com/Dharani-1805/chari-art-website/settings/pages
+    echo 1. Open: https://github.com/Dharani-1805/chari-arts/settings/pages
     echo 2. Under 'Source', select 'GitHub Actions'
     echo 3. Your site will be LIVE at:
-    echo    https://dharani-1805.github.io/chari-art-website/
+    echo    https://dharani-1805.github.io/chari-arts/
     echo.
 ) else (
     echo.
