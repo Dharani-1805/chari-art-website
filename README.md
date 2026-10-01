@@ -2,7 +2,8 @@
 
 Official portfolio and custom artwork commission platform for artist **Dharani Achari (Chari)** / **Chari Creations**. Handcrafted pencil portraits, deep charcoal studies, customized milestone portraits, vibrant colour pencil drawings, and hyper-realistic artworks.
 
-Live Deployment: [https://dharani-1805.github.io/chari-arts/](https://dharani-1805.github.io/chari-arts/)
+Live Deployment (GitHub Pages): [https://dharani-1805.github.io/chari-art-website/](https://dharani-1805.github.io/chari-art-website/)  
+Live Deployment (Render): [https://chari-art-website.onrender.com](https://chari-art-website.onrender.com)
 
 ---
 
@@ -91,10 +92,10 @@ chari-art-website/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Dharani-1805/chari-arts.git
+git clone https://github.com/Dharani-1805/chari-art-website.git
 
 # Enter project directory
-cd chari-arts
+cd chari-art-website
 
 # Install dependencies
 npm install
@@ -122,10 +123,10 @@ npm run lint
 
 ---
 
-## 🌐 Deployment to GitHub Pages
+## 🌐 Deployment
 
+### Option A: GitHub Pages (Automatic CI/CD)
 This project is configured with a GitHub Actions workflow in `.github/workflows/deploy.yml`:
-
 1. Push changes to the `main` branch:
    ```bash
    git push origin main
@@ -133,8 +134,16 @@ This project is configured with a GitHub Actions workflow in `.github/workflows/
 2. In your repository on GitHub:
    - Go to **Settings** > **Pages**
    - Under **Build and deployment** > **Source**, choose **GitHub Actions**
-3. GitHub Actions will automatically install, build, and publish the website to:
-   `https://dharani-1805.github.io/chari-arts/`
+3. Live site: `https://dharani-1805.github.io/chari-art-website/`
+
+### Option B: Render.com (Static Site)
+Configured with `render.yaml`:
+1. In Render Dashboard ([dashboard.render.com](https://dashboard.render.com)):
+   - Click **New +** > **Static Site**
+   - Connect repository `Dharani-1805/chari-art-website`
+   - Build Command: `npm install && npm run build`
+   - Publish Directory: `dist`
+2. Live site: `https://chari-art-website.onrender.com`
 
 ---
 

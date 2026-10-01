@@ -2,7 +2,7 @@
 title Push Chari Creations Website to GitHub
 echo =======================================================
 echo Pushing Chari Creations Website to GitHub Repository:
-echo https://github.com/Dharani-1805/chari-arts
+echo https://github.com/Dharani-1805/chari-art-website
 echo =======================================================
 echo.
 
@@ -24,11 +24,16 @@ if %ERRORLEVEL% EQU 0 (
     echo  SUCCESS! All files have been uploaded to GitHub!
     echo =======================================================
     echo.
-    echo Next step:
-    echo 1. Open: https://github.com/Dharani-1805/chari-arts/settings/pages
-    echo 2. Under 'Source', select 'GitHub Actions'
-    echo 3. Your site will be LIVE at:
-    echo    https://dharani-1805.github.io/chari-arts/
+    echo Next steps:
+    echo 1. GitHub Pages:
+    echo    https://github.com/Dharani-1805/chari-art-website/settings/pages
+    echo    Under 'Source', select 'GitHub Actions'
+    echo    Live at: https://dharani-1805.github.io/chari-art-website/
+    echo.
+    echo 2. Render.com:
+    echo    https://dashboard.render.com -^> New Static Site
+    echo    Connect repo: Dharani-1805/chari-art-website
+    echo    Live at: https://chari-art-website.onrender.com
     echo.
 ) else (
     echo.

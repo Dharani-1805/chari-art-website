@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: chari-arts
+    name: chari-art-website
     env: static
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
