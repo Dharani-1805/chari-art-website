@@ -15,6 +15,7 @@ import pricingData from '../../data/pricing.json'
 import artistData from '../../data/artist.json'
 import { calculateArtworkPrice } from '../../utils/priceEngine'
 import { buildWhatsAppCommissionLink } from '../../utils/whatsappHelper'
+import { getAssetUrl } from '../../utils/assetHelper'
 
 export default function CustomOrderSection({ preselectedMedium }) {
   // Commission state
@@ -177,7 +178,7 @@ export default function CustomOrderSection({ preselectedMedium }) {
                       <div className="flex gap-3 items-center">
                         {med.sampleImage && (
                           <img
-                            src={med.sampleImage}
+                            src={getAssetUrl(med.sampleImage)}
                             alt={med.name}
                             className="w-13 h-13 rounded-lg object-cover object-top border border-[#232631] shrink-0"
                           />

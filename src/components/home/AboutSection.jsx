@@ -1,6 +1,7 @@
 import React from 'react'
 import { Sparkles, Palette, CheckCircle } from 'lucide-react'
 import artistData from '../../data/artist.json'
+import { getAssetUrl } from '../../utils/assetHelper'
 
 export default function AboutSection() {
   return (
@@ -16,7 +17,7 @@ export default function AboutSection() {
               <div className="relative rounded-2xl overflow-hidden border border-[#232631] bg-[#12141a] p-3 shadow-2xl">
                 <div className="aspect-[4/5] rounded-xl overflow-hidden bg-[#0c0d10] relative">
                   <img
-                    src="/artworks/founder-dharani-achari.jpg"
+                    src={getAssetUrl(artistData.founderImage)}
                     alt="Dharani Achari (Chari) - Founder & Artist"
                     className="w-full h-full object-cover object-top"
                   />

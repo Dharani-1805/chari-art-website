@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Sparkles, Maximize2, X, Clock, Layers, ArrowRight, MessageCircle } from 'lucide-react'
 import artworksData from '../../data/artworks.json'
 import { buildQuickWhatsAppLink } from '../../utils/whatsappHelper'
+import { getAssetUrl } from '../../utils/assetHelper'
 
 export default function GallerySection({ onSelectMediumForCommission }) {
   const [selectedCategory, setSelectedCategory] = useState('all')
@@ -80,7 +81,7 @@ export default function GallerySection({ onSelectMediumForCommission }) {
               {/* Image Container */}
               <div className="relative aspect-[4/5] overflow-hidden bg-[#08090b]">
                 <img
-                  src={art.image}
+                  src={getAssetUrl(art.image)}
                   alt={art.title}
                   loading="lazy"
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
@@ -146,7 +147,7 @@ export default function GallerySection({ onSelectMediumForCommission }) {
             {/* Left: Artwork View */}
             <div className="lg:w-7/12 bg-[#08090b] relative flex items-center justify-center p-4 sm:p-8 max-h-[50vh] lg:max-h-[92vh] overflow-hidden">
               <img
-                src={activeModalArt.image}
+                src={getAssetUrl(activeModalArt.image)}
                 alt={activeModalArt.title}
                 className="max-h-full max-w-full object-contain rounded-xl shadow-2xl"
               />

@@ -4,6 +4,7 @@ import { InstagramIcon } from '../common/BrandIcons'
 import artistData from '../../data/artist.json'
 import artworksData from '../../data/artworks.json'
 import { buildQuickWhatsAppLink } from '../../utils/whatsappHelper'
+import { getAssetUrl } from '../../utils/assetHelper'
 
 export default function Hero() {
   const featuredArtwork = artworksData.find((a) => a.featured) || artworksData[0]
@@ -126,7 +127,7 @@ export default function Hero() {
               <div className="relative bg-[#12141a] border border-[#232631] rounded-2xl overflow-hidden shadow-2xl p-3.5 group">
                 <div className="relative aspect-[3/4] overflow-hidden rounded-xl bg-[#0c0d10]">
                   <img
-                    src={featuredArtwork.image}
+                    src={getAssetUrl(featuredArtwork.image)}
                     alt={featuredArtwork.title}
                     className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   />

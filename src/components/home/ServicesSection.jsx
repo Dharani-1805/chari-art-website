@@ -10,6 +10,7 @@ import {
   Flame,
   Layers
 } from 'lucide-react'
+import { getAssetUrl } from '../../utils/assetHelper'
 
 export default function ServicesSection({ onSelectMediumForCommission }) {
   const services = [
@@ -142,7 +143,7 @@ export default function ServicesSection({ onSelectMediumForCommission }) {
                   {/* Sample Artwork Image Preview */}
                   <div className="relative aspect-[16/10] mb-4 rounded-xl overflow-hidden bg-[#0c0d10] border border-[#232631]">
                     <img
-                      src={svc.sampleImage}
+                      src={getAssetUrl(svc.sampleImage)}
                       alt={svc.title}
                       className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                     />
